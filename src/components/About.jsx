@@ -64,7 +64,7 @@ const About = () => {
         and MongoDb</b>. Now I am learning NextJs.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 items-center justify-center flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
