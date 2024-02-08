@@ -57,6 +57,18 @@ const services = [
     title: "Java intermediate",
     icon: creator,
   },
+  {
+    title: "C# intermediate",
+    icon: mobile,
+  },
+  {
+    title: "Tailwind Css",
+    icon: backend,
+  },
+  {
+    title: "DSA intermediate",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -275,7 +287,7 @@ const projects = [
   // },
 
 
-  
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
