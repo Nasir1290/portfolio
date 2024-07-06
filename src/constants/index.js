@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
@@ -13,16 +13,18 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  // figma,
+  // docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  // starbucks,
+  // tesla,
+  // shopify,
+  // carrent,
+  // jobit,
+  // tripguide,
+  // threejs,
+  next,
+  ecommerce
 } from "../assets";
 
 export const navLinks = [
@@ -42,36 +44,63 @@ export const navLinks = [
 
 const services = [
   {
-    title: "MERN Developer",
+    title: "Javascript",
     icon: web,
   },
   {
-    title: "Javascript Programmer",
+    title: "React",
     icon: mobile,
   },
   {
-    title: "Python Programmer",
+    title: "Nextjs",
     icon: backend,
   },
   {
-    title: "Java intermediate",
+    title: "Nodejs",
     icon: creator,
   },
   {
-    title: "C# intermediate",
+    title: "Python",
     icon: mobile,
   },
   {
-    title: "Tailwind Css",
+    title: "Dsa",
     icon: backend,
   },
   {
-    title: "DSA intermediate",
+    title: "Database",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "react JS",
+    icon: reactjs,
+  },
+  {
+    name: "nextjs",
+    icon: next,
+  },
+  {
+    name: "javaScript",
+    icon: javascript,
+  },
+
+  {
+    name: "github",
+    icon: nodejs,
+  },
+
+  {
+    name: "mongodb",
+    icon: mongodb,
+  },
+
+  {
+    name: "java",
+    icon: git,
+  },
   {
     name: "hTML 5",
     icon: html,
@@ -84,47 +113,26 @@ const technologies = [
     name: "tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "javaScript",
-    icon: javascript,
-  },
-  {
-    name: "github",
-    icon: nodejs,
-  },
-  {
-    name: "react JS",
-    icon: reactjs,
-  },
+
+
   {
     name: "redux Toolkit",
     icon: redux,
   },
-  {
-    name: "python",
-    icon: mongodb,
-  },
 
-  {
-    name: "java",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
 
 
 
@@ -137,7 +145,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "",
-    icon: web,
+    icon: reactjs,
     iconBg: "#383E56",
     date: "Continuous Since January 2020",
     points: [
@@ -176,13 +184,13 @@ const experiences = [
   {
     title: "Collaboration and Teamwork",
     company_name: "",
-    icon: reactjs,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "Always",
     points: [
-      "Collaborated seamlessly with cross-functional teams.",
-      "Contributed to the iterative development process, promoting flexibility and responsiveness to changing project requirements.",
-      "Actively participated in knowledge-sharing sessions.",
+      // "Collaborated seamlessly with cross-functional teams.",
+      // "Contributed to the iterative development process, promoting flexibility and responsiveness to changing project requirements.",
+      // "Actively participated in knowledge-sharing sessions.",
     ],
   },
 ];
@@ -214,31 +222,36 @@ const testimonials = [
   },
 ];
 
+
+// projects
 const projects = [
 
 
 
-  // {
-  //   name: "Volt",
-  //   description:
-  //     "Volt is a comprehensive portfolio management software which offers a holistic solution for managing startup portfolios. Seamlessly manage your portfolio, track investments, and analyze performance all in one place with Volt's latest industry standards and best practices. Say goodbye to inefficiencies, embrace Volt!",
-  //   tags: [
-  //     {
-  //       name: "web dev",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "data visualization",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "software engineering",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/StarticField",
-  // },
+  {
+    name: "LWS Cart",
+    description:
+      "At LWS-Cart, we bring you a diverse and trendy collection for all your fashion needs. Whether you're shopping for yourself or your loved ones, we have something special for everyone. ",
+    tags: [
+      {
+        name: "e-commerce application",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Nextjs application",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://lws-cart.vercel.app/en",
+  },
+
+
   // {
   //   name: "PredCo",
   //   description:
