@@ -26,7 +26,8 @@ import {
   // threejs,
   next,
   ecommerce,
-  nextjsSite3dImage
+  nextjsSite3dImage,
+  weatherImage
 } from "../assets";
 
 export const navLinks = [
@@ -299,6 +300,31 @@ const projects = [
     ],
     image: cine,
     source_code_link: "https://cine-rental-app.netlify.app/",
+  },
+  {
+    name: "Weather-Dashboard",
+    description:
+      "Stay ahead of the weather with this intuitive and user-friendly dashboard. The app provides real-time updates and accurate forecasts for any location. Whether you’re planning your day or a weekend trip.",
+    tags: [
+      {
+        name: "weather",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "climate",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Show",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "rain",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: weatherImage,
+    source_code_link: "https://weather152.vercel.app/",
   },
 
 

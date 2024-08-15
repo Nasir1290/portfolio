@@ -33,8 +33,10 @@ import next from './next.png';
 import ecommerce from './commerce.png';
 import cine from "./cine.jpg";
 import nextjsSite3dImage from "./nextjs3dImage.png";
+import weatherImage from "./weather.png";
 
 export {
+  weatherImage,
   nextjsSite3dImage,
   cine,
   logo,
