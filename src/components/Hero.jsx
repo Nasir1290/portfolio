@@ -4,7 +4,6 @@ import { ComputersCanvas } from "./canvas";
 import { useEffect, useState } from "react";
 import { FaDownload } from "react-icons/fa";
 
-
 const Hero = () => {
   const [, setWindowWidth] = useState(window.innerWidth);
 
@@ -84,16 +83,17 @@ const Hero = () => {
           Passionate about technology, <br className="sm:block hidden" />
           solving real-world problems.
         </p>
-        <button className=" px-6 inline-block py-3 w-fit sm:w-fit rounded-se-3xl rounded-bl-3xl bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
-          <a
-            className=" flex items-center gap-2 "
-            href="resume.pdf"
-            download="nasir-resume"
-          >
-            {" "}
-            Resume <FaDownload></FaDownload>{" "}
-          </a>
-        </button>
+        {/* resume button */}
+        <a
+          className=" mb-16 inline-block px-6 py-3 w-fit sm:w-fit rounded-se-3xl rounded-bl-3xl bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
+          href="resume.pdf"
+          download="nasir-resume"
+        >
+          <button className="flex items-center gap-2">
+            Resume <FaDownload />
+          </button>
+        </a>
+        {/* resume button */}
       </div>
     </div>
   );
