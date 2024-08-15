@@ -84,7 +84,7 @@ const Hero = () => {
           Passionate about technology, <br className="sm:block hidden" />
           solving real-world problems.
         </p>
-        <button className=" px-6 inline-block py-3 w-full sm:w-fit rounded-se-3xl rounded-bl-3xl bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
+        <button className=" px-6 inline-block py-3 w-fit sm:w-fit rounded-se-3xl rounded-bl-3xl bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
           <a
             className=" flex items-center gap-2 "
             href="resume.pdf"
