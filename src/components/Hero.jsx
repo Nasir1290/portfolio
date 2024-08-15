@@ -1,13 +1,11 @@
-
 import { styles } from "../styles";
 // eslint-disable-next-line no-unused-vars
 import { ComputersCanvas } from "./canvas";
 import { useEffect, useState } from "react";
+import { FaDownload } from "react-icons/fa";
+
 
 const Hero = () => {
-
-
-
   const [, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -15,17 +13,14 @@ const Hero = () => {
       setWindowWidth(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-
-
   return (
-
     // 3d Computer
     // windowWidth>=600 ?<>
 
@@ -72,25 +67,35 @@ const Hero = () => {
 
     //         </>
     // :
-    
-    <div
-    className={` mt-16 inset-0 top-[10px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-  >
-    <div className='flex flex-col justify-center items-center mt-5'>
-      <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-      <div className='w-1 sm:h-80 h-40 violet-gradient' />
-    </div>
 
-    <div>
-      <h1 className={`${styles.heroHeadText} text-white`}>
-        Hi, I&apos;m <span className='text-[#915EFF]'>Nasir</span>
-      </h1>
-      <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-        Passionate about technology, <br className='sm:block hidden' />
-        solving real-world problems.
-      </p>
+    <div
+      className={` mt-16 inset-0 top-[10px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+    >
+      <div className="flex flex-col justify-center items-center mt-5">
+        <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+        <div className="w-1 sm:h-80 h-40 violet-gradient" />
+      </div>
+
+      <div>
+        <h1 className={`${styles.heroHeadText} text-white`}>
+          Hi, I&apos;m <span className="text-[#915EFF]">Nasir</span>
+        </h1>
+        <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          Passionate about technology, <br className="sm:block hidden" />
+          solving real-world problems.
+        </p>
+        <button className=" px-6 inline-block py-3 w-full sm:w-fit rounded-se-3xl rounded-bl-3xl bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
+          <a
+            className=" flex items-center gap-2 "
+            href="resume.pdf"
+            download="nasir-resume"
+          >
+            {" "}
+            Resume <FaDownload></FaDownload>{" "}
+          </a>
+        </button>
+      </div>
     </div>
-  </div>
   );
 };
 
