@@ -31,8 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import next from './next.png';
 import ecommerce from './commerce.png';
+import cine from "./cine.jpg";
 
 export {
+  cine,
   logo,
   backend,
   creator,

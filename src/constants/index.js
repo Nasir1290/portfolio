@@ -20,7 +20,8 @@ import {
   // tesla,
   // shopify,
   // carrent,
-  // jobit,
+  jobit,
+  cine,
   // tripguide,
   // threejs,
   next,
@@ -248,35 +249,37 @@ const projects = [
       },
     ],
     image: ecommerce,
-    source_code_link: "https://lws-cart.vercel.app/en",
+    source_code_link: "https://shadhin-shop.vercel.app/en",
   },
 
 
-  // {
-  //   name: "PredCo",
-  //   description:
-  //     "Web application that processes real-time data coming from IoT sensors installed in various industries. It serves as a powerful tool for Predictive Maintenance, enabling the detection of potential issues and triggering alerts. By optimizing scheduled maintenance activities, the application helps companies achieve significant cost savings.",
-  //   tags: [
-  //     {
-  //       name: "internet of things",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "elastic search",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "kibana",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "aws-ec2",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/PriyanshNegi/PredCo",
-  // },
+  {
+    name: "Cine - Rental",
+    description:
+      "Discover the ultimate movie-watching experience with Cinerental, your go-to app for renting the latest blockbusters and timeless classics. Whether you're in the mood for action-packed adventures,action-packed adventures,action-packed adventures",
+    tags: [
+      {
+        name: "Movie",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cinema",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Show",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MOve Lover",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: cine,
+    source_code_link: "https://cine-rental-app.netlify.app/",
+  },
+
+
   // {
   //   name: "Prompt-X",
   //   description:
