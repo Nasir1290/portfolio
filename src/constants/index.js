@@ -25,7 +25,8 @@ import {
   // tripguide,
   // threejs,
   next,
-  ecommerce
+  ecommerce,
+  nextjsSite3dImage
 } from "../assets";
 
 export const navLinks = [
@@ -252,6 +253,27 @@ const projects = [
     source_code_link: "https://shadhin-shop.vercel.app/en",
   },
 
+  {
+    name: "3D Portfolio",
+    description:
+      "Nasir Mollah 3D Portfolio website is a Awesome website created by Three js and Nextjs and it's designed by Tailwind css . I using some Awesome 3d Models in this website which makes it glourious and excellent",
+    tags: [
+      {
+        name: "portfolio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3d Apps",
+        color: "green-text-gradient",
+      },
+      {
+        name: "3d Models",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:   nextjsSite3dImage,
+    source_code_link: "https://nasirmollah2.vercel.app/",
+  },
 
   {
     name: "Cine - Rental",
@@ -280,27 +302,7 @@ const projects = [
   },
 
 
-  // {
-  //   name: "Prompt-X",
-  //   description:
-  //     "Prompt-X is an undergoing project designed to train language models and enhance prompt engineering. It will offer productivity analytics, personalized recommendations and insights for Chat GPT users. With its focus on training LLM models, Prompt-X is a powerful tool for optimizing workflows and advancing natural language understanding. ",
-  //   tags: [
-  //     {
-  //       name: "machine learning",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "web dev",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "prompt engineering",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/PriyanshNegi/Prompt-X-Website",
-  // },
+
 
 
 

@@ -7,6 +7,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { div } from "three/webgpu";
 
 // eslint-disable-next-line react-refresh/only-export-components
 const Contact = () => {
@@ -85,6 +86,7 @@ const Contact = () => {
   };
 
   return (
+    
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
