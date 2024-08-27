@@ -34,8 +34,10 @@ import ecommerce from './commerce.png';
 import cine from "./cine.jpg";
 import nextjsSite3dImage from "./nextjs3dImage.png";
 import weatherImage from "./weather.png";
+import eShoping from "./eshoping.png";
 
 export {
+  eShoping,
   weatherImage,
   nextjsSite3dImage,
   cine,

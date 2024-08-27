@@ -20,14 +20,15 @@ import {
   // tesla,
   // shopify,
   // carrent,
-  jobit,
+  // jobit,
   cine,
   // tripguide,
   // threejs,
   next,
   ecommerce,
   nextjsSite3dImage,
-  weatherImage
+  weatherImage,
+  eShoping
 } from "../assets";
 
 export const navLinks = [
@@ -276,6 +277,31 @@ const projects = [
     source_code_link: "https://nasirmollah2.vercel.app/",
   },
 
+  {
+    name: "E-Shopping",
+    description:
+      "Discover the ultimate shopping experience with E-shopping, go-to app for shoping the latest blockbusters and timeless classics. Whether you're in the mood for action-packed adventures,action-packed adventures,action-packed adventures",
+    tags: [
+      {
+        name: "shoping",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "e-shoping",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shop",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "shoping Lover",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: eShoping,
+    source_code_link: "https://e-shopping-react.netlify.app/",
+  },
   {
     name: "Cine - Rental",
     description:
