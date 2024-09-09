@@ -25,6 +25,7 @@ import {
   // tripguide,
   // threejs,
   next,
+  goodFood,
   ecommerce,
   nextjsSite3dImage,
   weatherImage,
@@ -230,7 +231,28 @@ const testimonials = [
 // projects
 const projects = [
 
+  {
+    name: "Food App",
+    description:
+      "At simple good food, we bring you a diverse and trendy collection for all your favourite foods. Whether you're choose for yourself or your loved ones, we have something special for everyone. ",
+    tags: [
+      {
+        name: "e-commerce application",
+        color: "blue-text-gradient",
+      },
 
+      {
+        name: "Food App",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: goodFood,
+    source_code_link: "https://simple-good-food.netlify.app",
+  },
 
   {
     name: "LWS Cart",
@@ -254,29 +276,6 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://shadhin-shop.vercel.app/en",
   },
-
-  {
-    name: "3D Portfolio",
-    description:
-      "Nasir Mollah 3D Portfolio website is a Awesome website created by Three js and Nextjs and it's designed by Tailwind css . I using some Awesome 3d Models in this website which makes it glourious and excellent",
-    tags: [
-      {
-        name: "portfolio",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "3d Apps",
-        color: "green-text-gradient",
-      },
-      {
-        name: "3d Models",
-        color: "pink-text-gradient",
-      },
-    ],
-    image:   nextjsSite3dImage,
-    source_code_link: "https://nasirmollah2.vercel.app/",
-  },
-
   {
     name: "E-Shopping",
     description:
@@ -302,6 +301,30 @@ const projects = [
     image: eShoping,
     source_code_link: "https://e-shopping-react.netlify.app/",
   },
+
+  {
+    name: "3D Portfolio",
+    description:
+      "Nasir Mollah 3D Portfolio website is a Awesome website created by Three js and Nextjs and it's designed by Tailwind css . I using some Awesome 3d Models in this website which makes it glourious and excellent",
+    tags: [
+      {
+        name: "portfolio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3d Apps",
+        color: "green-text-gradient",
+      },
+      {
+        name: "3d Models",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nextjsSite3dImage,
+    source_code_link: "https://nasirmollah2.vercel.app/",
+  },
+
+
   {
     name: "Cine - Rental",
     description:
