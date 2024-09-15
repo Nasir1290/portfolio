@@ -36,8 +36,10 @@ import nextjsSite3dImage from "./nextjs3dImage.png";
 import weatherImage from "./weather.png";
 import eShoping from "./eshoping.png";
 import goodFood from "./goodFood.png"
+import RestaurentManagement from "./restaurent-management.png";
 
 export {
+  RestaurentManagement,
   goodFood,
   eShoping,
   weatherImage,

@@ -29,7 +29,8 @@ import {
   ecommerce,
   nextjsSite3dImage,
   weatherImage,
-  eShoping
+  eShoping,
+  RestaurentManagement
 } from "../assets";
 
 export const navLinks = [
@@ -300,6 +301,31 @@ const projects = [
     ],
     image: eShoping,
     source_code_link: "https://e-shopping-react.netlify.app/",
+  },
+  {
+    name: "Restaurent-Management",
+    description:
+      "Book your favourite Restaurent and Enjoy Your Food, go-to app for shoping the latest blockbusters and timeless classics. Whether you're in the mood for action-packed adventures,action-packed adventures,action-packed adventures",
+    tags: [
+      {
+        name: "Restaurent",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Food",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Shop",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Food Lover",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: RestaurentManagement,
+    source_code_link: "https://restaurent-management1.netlify.app/",
   },
 
   {
