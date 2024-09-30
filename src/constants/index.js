@@ -30,7 +30,7 @@ import {
   nextjsSite3dImage,
   weatherImage,
   eShoping,
-  RestaurentManagement
+  RestaurentManagement,
 } from "../assets";
 
 export const navLinks = [
@@ -120,12 +120,10 @@ const technologies = [
     icon: tailwind,
   },
 
-
   {
     name: "redux Toolkit",
     icon: redux,
   },
-
 
   // {
   //   name: "Three JS",
@@ -139,12 +137,6 @@ const technologies = [
   //   name: "TypeScript",
   //   icon: typescript,
   // },
-
-
-
-
-
-
 ];
 
 const experiences = [
@@ -208,7 +200,8 @@ const testimonials = [
     name: "Robin",
     designation: "HR Business Partner",
     company: "Experian",
-    image: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+    image:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
   },
   {
     testimonial:
@@ -216,7 +209,8 @@ const testimonials = [
     name: "Khairul Kabir",
     designation: "HR",
     company: "Simply Body Talk",
-    image: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+    image:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
   },
   {
     testimonial:
@@ -224,59 +218,14 @@ const testimonials = [
     name: "Aman Ullah",
     designation: "CTO",
     company: "Dinnerfy",
-    image: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+    image:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
   },
 ];
 
 
 // projects
 const projects = [
-
-  {
-    name: "Food App",
-    description:
-      "At simple good food, we bring you a diverse and trendy collection for all your favourite foods. Whether you're choose for yourself or your loved ones, we have something special for everyone. ",
-    tags: [
-      {
-        name: "e-commerce application",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "Food App",
-        color: "green-text-gradient",
-      },
-      {
-        name: "web dev",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: goodFood,
-    source_code_link: "https://simple-good-food.netlify.app",
-  },
-
-  {
-    name: "LWS Cart",
-    description:
-      "At LWS-Cart, we bring you a diverse and trendy collection for all your fashion needs. Whether you're shopping for yourself or your loved ones, we have something special for everyone. ",
-    tags: [
-      {
-        name: "e-commerce application",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "Nextjs application",
-        color: "green-text-gradient",
-      },
-      {
-        name: "web dev",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ecommerce,
-    source_code_link: "https://shadhin-shop.vercel.app/en",
-  },
   {
     name: "E-Shopping",
     description:
@@ -300,8 +249,57 @@ const projects = [
       },
     ],
     image: eShoping,
-    source_code_link: "https://e-shopping-react.netlify.app/",
+    source_code_link: "https://github.com/Nasir1290/e-commerce-react",
+    live_link: "https://e-shopping-react.netlify.app/",
   },
+  {
+    name: "Food App",
+    description:
+      "At simple good food, we bring you a diverse and trendy collection for all your favourite foods. Whether you're choose for yourself or your loved ones, we have something special for everyone. ",
+    tags: [
+      {
+        name: "e-commerce application",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Food App",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: goodFood,
+    source_code_link: "https://github.com/Nasir1290/simple-good-foods",
+    live_link: "https://simple-good-food.netlify.app",
+  },
+
+  {
+    name: "LWS Cart",
+    description:
+      "At LWS-Cart, we bring you a diverse and trendy collection for all your fashion needs. Whether you're shopping for yourself or your loved ones, we have something special for everyone. ",
+    tags: [
+      {
+        name: "e-commerce application",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Nextjs application",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/Nasir1290/lwscart",
+    live_link: "https://shadhin-shop.vercel.app/en",
+  },
+
   {
     name: "Restaurent-Management",
     description:
@@ -325,7 +323,8 @@ const projects = [
       },
     ],
     image: RestaurentManagement,
-    source_code_link: "https://restaurent-management1.netlify.app/",
+    source_code_link: "https://github.com/Nasir1290/resturent-booking",
+    live_link: "https://restaurent-management1.netlify.app/",
   },
 
   {
@@ -347,9 +346,9 @@ const projects = [
       },
     ],
     image: nextjsSite3dImage,
-    source_code_link: "https://nasirmollah2.vercel.app/",
+    source_code_link: "https://github.com/Nasir1290/nextjs-3d-site",
+    live_link: "https://nasirmollah2.vercel.app/",
   },
-
 
   {
     name: "Cine - Rental",
@@ -374,7 +373,8 @@ const projects = [
       },
     ],
     image: cine,
-    source_code_link: "https://cine-rental-app.netlify.app/",
+    source_code_link: "https://github.com/Nasir1290/cine-rental",
+    live_link: "https://cine-rental-app.netlify.app/",
   },
   {
     name: "Weather-Dashboard",
@@ -399,14 +399,9 @@ const projects = [
       },
     ],
     image: weatherImage,
-    source_code_link: "https://weather152.vercel.app/",
+    source_code_link: "https://github.com/Nasir1290/weather-dashboard",
+    live_link: "https://weather152.vercel.app/",
   },
-
-
-
-
-
-
 ];
 
 export { services, technologies, experiences, testimonials, projects };
